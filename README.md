@@ -6,7 +6,7 @@
 
 One out-of-office auto-reply, one line:
 
-> I'm out of office until Monday. If it's urgent, please reply-all so the whole team can ignore it together.
+> I'm out of office until Monday. If it's urgent, reply-all so the whole team can ignore it together.
 
 ## Run it
 
@@ -14,7 +14,7 @@ One out-of-office auto-reply, one line:
 python3 main.py
 ```
 
-Writes the line to `/output/entry.txt` (105 characters, within the 1–160 gate).
+Writes the line to `/output/entry.txt` (99 characters, within the 1–160 gate).
 
 ---
 

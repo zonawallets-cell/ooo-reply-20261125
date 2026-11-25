@@ -6,7 +6,7 @@ Pure stdlib. The line must be 1-160 characters of UTF-8 text.
 """
 import os
 
-LINE = "I'm out of office until Monday. If it's urgent, please reply-all so the whole team can ignore it together."
+LINE = "I'm out of office until Monday. If it's urgent, reply-all so the whole team can ignore it together."
 
 def main() -> None:
     assert 1 <= len(LINE) <= 160, f"line is {len(LINE)} chars, must be 1-160"
